@@ -1,0 +1,20 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "MADToken",
+    "name": "Mutually Assured Destruction",
+    "symbol": "MAD",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xa0df17b5ac76ababa36e1450e2cbcd18a620c845",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {"poolBps":6000,"initialMarketCapWei":"500000000000000000000000","remainderTo":"0x3ed212257958724579f13b3dba74a07ac6007903"},
+  "notes": "MADToken is a fixed-supply ERC-20 (18 decimals) with no constructor arguments and no administrative powers. Its constructor mints 1,000,000,000 MAD once to msg.sender (the factory); there is no mint, burn, fee or pause path, and transfers move exactly the stated amount. No application contracts."
+}
